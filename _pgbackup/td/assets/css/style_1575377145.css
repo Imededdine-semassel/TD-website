@@ -2847,7 +2847,7 @@ body.can-uppercase .section-categories-carousel.section-top-categories .readmore
 
 .site-header {
     font-size: 0.938em;
-    background-image: linear-gradient(134deg, #d1267e 0%, #4432ae 100%);
+    background-image: linear-gradient(134deg, #d1267e 0%, #634EDB 100%);
     color: #444;
     background-position: center center;
     position: relative;
@@ -13202,7 +13202,7 @@ article.post.category-more-tag a[target=_blank] {
     right: 0;
     left: 0;
     top: 0;
-    background-image: linear-gradient(134deg, #d1267e 0%, #4432ae 100%);
+    background-image: linear-gradient(134deg, #A0135B 0%, #634EDB 100%);
     z-index: 9999;
     box-shadow: 0px 0px 17px -1px rgba(0, 0, 0, 0.66);
 }
@@ -16166,11 +16166,11 @@ article .site-content .home-v10-slider .slider-1 .more-link:hover {
 }
 
 .ribbon.green-label:before {
-    background: #64a91e;
+    background: #bfd630;
 }
 
 .ribbon.green-label:after {
-    border-left: 10px solid #64a91e;
+    border-left: 10px solid #bfd630;
 }
 
 .ribbon.green-label span {
@@ -26060,7 +26060,6 @@ table.shop_table_responsive.my_account_orders .order-actions:before {
 
 .single-product .single-product-meta .product-label .ribbon {
     margin: 0 0 0 auto;
-    background-color: #64a91e;
 }
 
 .single-product div[itemprop="description"],
@@ -30181,7 +30180,6 @@ article .woocommerce-MyAccount-downloads .more-link {
     font-size: 0.938em;
     padding: 0.867em 5em;
     border-radius: 1.667em;
-    background-color: #64a91e;
 }
 
 @media (max-width: 575px) {
@@ -31575,7 +31573,7 @@ dl.variation dd {
     font-size: 1em;
     overflow: hidden;
     max-height: 42px;
-    text-align: center;
+    text-align: left;
     margin: auto;
 }
 
@@ -36198,7 +36196,7 @@ form.track_order input[type="submit"] {
 }
 
 .custom-logo-link img {
-    max-width: 60px !important;
+    max-width: 50px !important;
 }
 
 .stores .product a img {

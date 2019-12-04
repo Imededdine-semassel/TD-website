@@ -27,7 +27,7 @@
         <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,900" rel="stylesheet">
         <link rel="shortcut icon" href="assets/images/fav-icon.png">
     </head>
-    <body class="page home page-template-default">
+    <body class="woocommerce-active full-width">
         <div id="page" class="hfeed site">
             <!-- .top-bar-v1 -->
             <header id="masthead" class="site-header header-v10">
@@ -35,7 +35,7 @@
                     <div class="techmarket-sticky-wrap">
                         <div class="row">
                             <div class="site-branding col-xl-3">
-                                <a href="home-v1.html" class="custom-logo-link" rel="home" style="display: flex;"><img src="../assets/images/logo-white.svg"/><h4 style="margin: auto; padding-left: 16px; color: #ffffff;">Trending Dukaan</h4> </a>
+                                <a href="home-v1.html" class="custom-logo-link" rel="home" style="display: flex;"><img src="../assets/images/logo-white.svg"/><h4 style="margin: auto; padding-left: 16px; color: #ffffff; font-size: 20px;">Trending Dukaan</h4> </a>
                                 <!-- /.custom-logo-link -->
                             </div>
                             <!-- /.site-branding -->
@@ -776,77 +776,252 @@
             </header>
             <!-- .header-v1 -->
             <!-- ============================================================= Header End ============================================================= -->
-            <div id="content" class="site-content">
+            <div id="content" class="site-content" tabindex="-1">
                 <div class="col-full">
                     <div class="row">
-                        <nav class="woocommerce-breadcrumb">
+                        <nav class="woocommerce-breadcrumb mt-4">
                             <a href="home-v1.html">Home</a>
-                            <span class="delimiter"> <i class="tm tm-breadcrumbs-arrow-right"></i> </span>My Account
+                            <span class="delimiter"> <i class="tm tm-breadcrumbs-arrow-right"></i> </span>
+                            <a href="shop.html">Shop</a>
+                            <span class="delimiter"> <i class="tm tm-breadcrumbs-arrow-right"></i> </span>Page 1
                         </nav>
                         <!-- .woocommerce-breadcrumb -->
                         <div id="primary" class="content-area">
                             <main id="main" class="site-main">
-                                <div class="type-page hentry">
-                                    <div class="entry-content">
-                                        <div class="woocommerce">
-                                            <div class="customer-login-form">
-                                                <span class="or-text">or</span>
-                                                <div id="customer_login" class="u-columns col2-set">
-                                                    <div class="u-column1 col-1">
-                                                        <h2>Login</h2>
-                                                        <form method="post" class="woocomerce-form woocommerce-form-login login">
-                                                            <p class="form-row form-row-wide"> <label for="username">Username or email address
-                                                                    <span class="required">*</span>
-                                                                </label> <input type="text" class="input-text" name="username" id="username" value=""/> </p>
-                                                            <p class="form-row form-row-wide"> <label for="password">Password
-                                                                    <span class="required">*</span>
-                                                                </label> <input class="input-text" type="password" name="password" id="password"/> </p>
-                                                            <p class="form-row"> <input class="woocommerce-Button button" type="submit" value="Login" name="login"> <label for="rememberme" class="woocommerce-form__label woocommerce-form__label-for-checkbox inline">
-                                                                    <input class="woocommerce-form__input woocommerce-form__input-checkbox" name="rememberme" type="checkbox" id="rememberme" value="forever"/> Remember me
-                                                                </label> </p>
-                                                            <p class="woocommerce-LostPassword lost_password"> <a href="#">Lost your password?</a> </p>
-                                                        </form>
-                                                        <!-- .woocommerce-form-login -->
-                                                    </div>
-                                                    <!-- .col-1 -->
-                                                    <div class="u-column2 col-2">
-                                                        <h2>Register</h2>
-                                                        <form class="register" method="post">
-                                                            <p class="form-row form-row-wide"> <label for="reg_email">Name
-                                                                    <span class="required">*</span>
-                                                                </label> <input type="email" value="" id="reg_email" name="text" class="woocommerce-Input woocommerce-Input--text input-text"> </p>
-                                                            <p class="form-row form-row-wide"> <label for="reg_email">Mobile Number
-                                                                    <span class="required">*</span>
-                                                                </label> <input type="email" value="" id="reg_email" name="text" class="woocommerce-Input woocommerce-Input--text input-text"> </p>
-                                                            <p class="form-row form-row-wide"> <label for="reg_email">Email address
-                                                                    <span class="required">*</span>
-                                                                </label> <input type="email" value="" id="reg_email" name="email" class="woocommerce-Input woocommerce-Input--text input-text"> </p>
-                                                            <p class="form-row form-row-wide"> <label for="reg_password">Password
-                                                                    <span class="required">*</span>
-                                                                </label> <input type="password" id="reg_password" name="password" class="woocommerce-Input woocommerce-Input--text input-text"> </p>
-                                                            <p class="form-row"> <input type="submit" class="woocommerce-Button button" name="register" value="Register"/> </p>
-                                                            <div class="register-benefits">
-                                                                <h3>Sign up today and you will be able to :</h3>
-                                                                <ul>
-                                                                    <li>Send messages to stores</li>
-                                                                    <li>Follow you favourite stores</li>
-                                                                    <li>Avail Offers and Deals</li>
-                                                                </ul>
-                                                            </div>
-                                                        </form>
-                                                        <!-- .register -->
-                                                    </div>
-                                                    <!-- .col-2 -->
+                                <div class="shop-control-bar">
+                                    <div class="handheld-sidebar-toggle">
+                                        <button type="button" class="btn sidebar-toggler">
+                                            <i class="fa fa-sliders"></i>
+                                            <span>Filters</span>
+                                        </button>
+                                    </div>
+                                    <!-- .handheld-sidebar-toggle -->
+                                    <h1 class="woocommerce-products-header__title page-title">Shop</h1>
+                                    <!-- .shop-view-switcher -->
+                                    <form class="form-techmarket-wc-ppp" method="POST">
+                                        <select class="techmarket-wc-wppp-select c-select" onchange="this.form.submit()" name="ppp">
+                                            <option value="20">Show 20</option>
+                                            <option value="40">Show 40</option>
+                                            <option value="-1">Show All</option>
+                                        </select>
+                                        <input type="hidden" value="5" name="shop_columns">
+                                        <input type="hidden" value="15" name="shop_per_page">
+                                        <input type="hidden" value="right-sidebar" name="shop_layout">
+                                    </form>
+                                    <!-- .form-techmarket-wc-ppp -->
+                                    <form method="get" class="woocommerce-ordering">
+                                        <input type="hidden" value="5" name="shop_columns">
+                                        <input type="hidden" value="15" name="shop_per_page">
+                                        <input type="hidden" value="right-sidebar" name="shop_layout">
+                                    </form>
+                                    <!-- .woocommerce-ordering -->
+                                    <nav class="techmarket-advanced-pagination">
+                                        <form class="form-adv-pagination" method="post">
+                                            <input type="number" value="1" class="form-control" step="1" max="5" min="1" size="2" id="goto-page">
+                                        </form>                                                                                 of 5
+                                        <a href="#" class="next page-numbers">→</a>
+                                    </nav>
+                                    <!-- .techmarket-advanced-pagination -->
+                                </div>
+                                <!-- .shop-control-bar -->
+                                <div class="tab-content">
+                                    <div id="grid" class="tab-pane active" role="tabpanel">
+                                        <div class="woocommerce columns-7">
+                                            <div class="products">
+                                                <div class="product first">
+                                                    <!-- .yith-wcwl-add-to-wishlist -->
+                                                    <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html"> <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="assets/images/ads/ad-2.jpg"> <h2 class="woocommerce-loop-product__title"> <span><img src="assets/images/Bitmap.png"></span>Sai Kripa Mobile <br>1.2 km</h2> </a>
+                                                    <!-- .woocommerce-LoopProduct-link -->
+                                                    <div class="hover-area">
+</div>
+                                                    <!-- .hover-area -->
                                                 </div>
-                                                <!-- .col2-set -->
+                                                <div class="product">
+                                                    <!-- .yith-wcwl-add-to-wishlist -->
+                                                    <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html"> <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="assets/images/ads/ad-2.jpg"> <h2 class="woocommerce-loop-product__title"> <span><img src="assets/images/Bitmap.png"></span>Sai Kripa Mobile <br>1.2 km</h2> </a>
+                                                    <!-- .woocommerce-LoopProduct-link -->
+                                                    <div class="hover-area">
+</div>
+                                                    <!-- .hover-area -->
+                                                </div>
+                                                <div class="product">
+                                                    <!-- .yith-wcwl-add-to-wishlist -->
+                                                    <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html"> <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="assets/images/ads/ad-2.jpg"> <h2 class="woocommerce-loop-product__title"> <span><img src="assets/images/Bitmap.png"></span>Sai Kripa Mobile <br>1.2 km</h2> </a>
+                                                    <!-- .woocommerce-LoopProduct-link -->
+                                                    <div class="hover-area">
+</div>
+                                                    <!-- .hover-area -->
+                                                </div>
+                                                <div class="product">
+                                                    <!-- .yith-wcwl-add-to-wishlist -->
+                                                    <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html"> <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="assets/images/ads/ad-2.jpg"> <h2 class="woocommerce-loop-product__title"> <span><img src="assets/images/Bitmap.png"></span>Sai Kripa Mobile <br>1.2 km</h2> </a>
+                                                    <!-- .woocommerce-LoopProduct-link -->
+                                                    <div class="hover-area">
+</div>
+                                                    <!-- .hover-area -->
+                                                </div>
+                                                <div class="product">
+                                                    <!-- .yith-wcwl-add-to-wishlist -->
+                                                    <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html"> <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="assets/images/ads/ad-2.jpg"> <h2 class="woocommerce-loop-product__title"> <span><img src="assets/images/Bitmap.png"></span>Sai Kripa Mobile <br>1.2 km</h2> </a>
+                                                    <!-- .woocommerce-LoopProduct-link -->
+                                                    <div class="hover-area">
+</div>
+                                                    <!-- .hover-area -->
+                                                </div>
+                                                <div class="product">
+                                                    <!-- .yith-wcwl-add-to-wishlist -->
+                                                    <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html"> <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="assets/images/ads/ad-2.jpg"> <h2 class="woocommerce-loop-product__title"> <span><img src="assets/images/Bitmap.png"></span>Sai Kripa Mobile <br>1.2 km</h2> </a>
+                                                    <!-- .woocommerce-LoopProduct-link -->
+                                                    <div class="hover-area">
+</div>
+                                                    <!-- .hover-area -->
+                                                </div>
+                                                <div class="product">
+                                                    <!-- .yith-wcwl-add-to-wishlist -->
+                                                    <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html"> <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="assets/images/ads/ad-2.jpg"> <h2 class="woocommerce-loop-product__title"> <span><img src="assets/images/Bitmap.png"></span>Sai Kripa Mobile <br>1.2 km</h2> </a>
+                                                    <!-- .woocommerce-LoopProduct-link -->
+                                                    <div class="hover-area">
+</div>
+                                                    <!-- .hover-area -->
+                                                </div>
+                                                <div class="product">
+                                                    <!-- .yith-wcwl-add-to-wishlist -->
+                                                    <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html"> <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="assets/images/ads/ad-2.jpg"> <h2 class="woocommerce-loop-product__title"> <span><img src="assets/images/Bitmap.png"></span>Sai Kripa Mobile <br>1.2 km</h2> </a>
+                                                    <!-- .woocommerce-LoopProduct-link -->
+                                                    <div class="hover-area">
+</div>
+                                                    <!-- .hover-area -->
+                                                </div>
+                                                <div class="product">
+                                                    <!-- .yith-wcwl-add-to-wishlist -->
+                                                    <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html"> <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="assets/images/ads/ad-2.jpg"> <h2 class="woocommerce-loop-product__title"> <span><img src="assets/images/Bitmap.png"></span>Sai Kripa Mobile <br>1.2 km</h2> </a>
+                                                    <!-- .woocommerce-LoopProduct-link -->
+                                                    <div class="hover-area">
+</div>
+                                                    <!-- .hover-area -->
+                                                </div>
+                                                <div class="product">
+                                                    <!-- .yith-wcwl-add-to-wishlist -->
+                                                    <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html"> <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="assets/images/ads/ad-2.jpg"> <h2 class="woocommerce-loop-product__title"> <span><img src="assets/images/Bitmap.png"></span>Sai Kripa Mobile <br>1.2 km</h2> </a>
+                                                    <!-- .woocommerce-LoopProduct-link -->
+                                                    <div class="hover-area">
+</div>
+                                                    <!-- .hover-area -->
+                                                </div>
+                                                <div class="product">
+                                                    <!-- .yith-wcwl-add-to-wishlist -->
+                                                    <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html"> <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="assets/images/ads/ad-2.jpg"> <h2 class="woocommerce-loop-product__title"> <span><img src="assets/images/Bitmap.png"></span>Sai Kripa Mobile <br>1.2 km</h2> </a>
+                                                    <!-- .woocommerce-LoopProduct-link -->
+                                                    <div class="hover-area">
+</div>
+                                                    <!-- .hover-area -->
+                                                </div>
+                                                <div class="product">
+                                                    <!-- .yith-wcwl-add-to-wishlist -->
+                                                    <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html"> <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="assets/images/ads/ad-2.jpg"> <h2 class="woocommerce-loop-product__title"> <span><img src="assets/images/Bitmap.png"></span>Sai Kripa Mobile <br>1.2 km</h2> </a>
+                                                    <!-- .woocommerce-LoopProduct-link -->
+                                                    <div class="hover-area">
+</div>
+                                                    <!-- .hover-area -->
+                                                </div>
+                                                <div class="product">
+                                                    <!-- .yith-wcwl-add-to-wishlist -->
+                                                    <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html"> <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="assets/images/ads/ad-2.jpg"> <h2 class="woocommerce-loop-product__title"> <span><img src="assets/images/Bitmap.png"></span>Sai Kripa Mobile <br>1.2 km</h2> </a>
+                                                    <!-- .woocommerce-LoopProduct-link -->
+                                                    <div class="hover-area">
+</div>
+                                                    <!-- .hover-area -->
+                                                </div>
+                                                <div class="product">
+                                                    <!-- .yith-wcwl-add-to-wishlist -->
+                                                    <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html"> <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="assets/images/ads/ad-2.jpg"> <h2 class="woocommerce-loop-product__title"> <span><img src="assets/images/Bitmap.png"></span>Sai Kripa Mobile <br>1.2 km</h2> </a>
+                                                    <!-- .woocommerce-LoopProduct-link -->
+                                                    <div class="hover-area">
+</div>
+                                                    <!-- .hover-area -->
+                                                </div>
+                                                <div class="product">
+                                                    <!-- .yith-wcwl-add-to-wishlist -->
+                                                    <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html"> <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="assets/images/ads/ad-2.jpg"> <h2 class="woocommerce-loop-product__title"> <span><img src="assets/images/Bitmap.png"></span>Sai Kripa Mobile <br>1.2 km</h2> </a>
+                                                    <!-- .woocommerce-LoopProduct-link -->
+                                                    <div class="hover-area">
+</div>
+                                                    <!-- .hover-area -->
+                                                </div>
+                                                <!-- .product -->
+                                                <!-- .product -->
+                                                <!-- .product -->
+                                                <!-- .product -->
+                                                <!-- .product -->
+                                                <!-- .product -->
+                                                <!-- .product -->
+                                                <!-- .product -->
+                                                <!-- .product -->
+                                                <!-- .product -->
+                                                <!-- .product -->
+                                                <!-- .product -->
+                                                <!-- .product -->
+                                                <!-- .product -->
+                                                <!-- .product -->
+                                                <!-- .product -->
+                                                <!-- .product -->
+                                                <!-- .product -->
+                                                <!-- .product -->
+                                                <!-- .product -->
+                                                <!-- .product -->
                                             </div>
-                                            <!-- .customer-login-form -->
+                                            <!-- .products -->
                                         </div>
                                         <!-- .woocommerce -->
                                     </div>
-                                    <!-- .entry-content -->
+                                    <!-- .tab-pane -->
+                                    <!-- .tab-pane -->
+                                    <!-- .tab-pane -->
+                                    <!-- .tab-pane -->
+                                    <!-- .tab-pane -->
                                 </div>
-                                <!-- .hentry -->
+                                <!-- .tab-content -->
+                                <div class="shop-control-bar-bottom">
+                                    <form class="form-techmarket-wc-ppp" method="POST">
+                                        <select class="techmarket-wc-wppp-select c-select" onchange="this.form.submit()" name="ppp">
+                                            <option value="20">Show 20</option>
+                                            <option value="40">Show 40</option>
+                                            <option value="-1">Show All</option>
+                                        </select>
+                                        <input type="hidden" value="5" name="shop_columns">
+                                        <input type="hidden" value="15" name="shop_per_page">
+                                        <input type="hidden" value="right-sidebar" name="shop_layout">
+                                    </form>
+                                    <!-- .form-techmarket-wc-ppp -->
+                                    <p class="woocommerce-result-count">
+                                        Showing 1&ndash;15 of 73 results </p>
+                                    <!-- .woocommerce-result-count -->
+                                    <nav class="woocommerce-pagination">
+                                        <ul class="page-numbers">
+                                            <li>
+                                                <span class="page-numbers current">1</span>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="page-numbers">2</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="page-numbers">3</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="page-numbers">4</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="page-numbers">5</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="next page-numbers">→</a>
+                                            </li>
+                                        </ul>
+                                        <!-- .page-numbers -->
+                                    </nav>
+                                    <!-- .woocommerce-pagination -->
+                                </div>
+                                <!-- .shop-control-bar-bottom -->
                             </main>
                             <!-- #main -->
                         </div>
@@ -863,6 +1038,8 @@
                     <div class="footer-widgets-block">
                         <div class="row">
                             <div class="footer-contact">
+                                <div class="footer-logo">
+</div>
                                 <!-- .footer-logo -->
                                 <div class="contact-payment-wrap">
                                     <div class="footer-contact-info">

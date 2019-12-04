@@ -16166,11 +16166,11 @@ article .site-content .home-v10-slider .slider-1 .more-link:hover {
 }
 
 .ribbon.green-label:before {
-    background: #64a91e;
+    background: #bfd630;
 }
 
 .ribbon.green-label:after {
-    border-left: 10px solid #64a91e;
+    border-left: 10px solid #bfd630;
 }
 
 .ribbon.green-label span {
@@ -26060,7 +26060,6 @@ table.shop_table_responsive.my_account_orders .order-actions:before {
 
 .single-product .single-product-meta .product-label .ribbon {
     margin: 0 0 0 auto;
-    background-color: #64a91e;
 }
 
 .single-product div[itemprop="description"],
@@ -31570,7 +31569,7 @@ dl.variation dd {
 .products .product h3,
 .products .product .woocommerce-loop-product__title {
     line-height: 1.5em;
-    font-weight: 400;
+    font-weight: 500;
     color: #626060;
     font-size: 1em;
     overflow: hidden;
